@@ -17,6 +17,68 @@ header{
 
 body{
     padding-top: 100px;
+    font-family: sans-serif;
 }
 
+/* Utils */
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flx{
+    display: flex;
+}
+
+.flx.jst-center{
+    justify-content: center;
+}
+
+.flx.al-center{
+    align-items: center;
+}
+
+.logo img{
+    max-height: 20px;
+}
+
+.brd{
+    border: 1px solid black;
+}
+
+
+
 /* Header */
+
+.nav-bar{
+    height: 100%;
+}
+
+.nav-bar > div{
+    flex-basis: calc(100%/3);
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-bar li{
+    font-size: 12px;
+    padding-right: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user-interaction{
+    justify-content: flex-end;
+}
+
+.user-interaction i{
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+
