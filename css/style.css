@@ -13,6 +13,8 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
+    box-shadow: 0 0 10px grey;
 }
 
 body{
@@ -43,11 +45,12 @@ body{
     max-height: 20px;
 }
 
+
+
+
 .brd{
     border: 1px solid black;
 }
-
-
 
 /* Header */
 
@@ -79,6 +82,69 @@ body{
 .user-interaction i{
     padding-left: 7px;
     cursor: pointer;
+}
+
+/* Main */
+
+.row{
+    gap: 10px;
+}
+.column{
+    flex-basis: calc(100%/3);
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.primary-pic{
+    position: absolute;
+}
+
+.card:hover .primary-pic{
+    z-index: -1;
+}
+
+.card{
+    position: relative;
+}
+
+.add-like{
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.add-like:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.info{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    z-index: 1;
+}
+
+.info span{
+    position: relative;
+    display: inline-block;
+    padding: 3px 7px;
+    font-size: 9px;
+    color: white;
+}
+
+.discount{
+    background-color: red;
+}
+
+.eco{
+    background-color: green;
 }
 
 
