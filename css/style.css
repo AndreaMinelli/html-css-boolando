@@ -196,3 +196,16 @@ h5{
 
 /* Footer */
 
+.footer-info{
+    flex-grow: 1;
+}
+
+.footer-social{
+    text-align: center;
+    flex-basis: 10%;
+}
+
+.footer-social i{
+    margin-top: 7px;
+    cursor: pointer;
+}
