@@ -45,7 +45,9 @@ body{
     max-height: 20px;
 }
 
-
+.font-size-sm{
+    font-size: 10px;
+}
 
 
 .brd{
@@ -93,8 +95,11 @@ body{
     flex-basis: calc(100%/3);
 }
 
+/* Card */
+
 .card img{
     max-width: 100%;
+    display: block;
 }
 
 .primary-pic{
@@ -128,7 +133,7 @@ body{
     position: absolute;
     left: 0;
     bottom: 30px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .info span{
@@ -147,4 +152,27 @@ body{
     background-color: green;
 }
 
+/* Info dress under pic */
+
+.brand{
+    text-transform: capitalize;
+}
+
+.dress-name{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.new-price{
+    color: red;
+    vertical-align: text-top;
+    font-weight: 700;
+}
+
+.old-price{
+    color: grey;
+    vertical-align: text-top;
+    text-decoration:line-through;
+}
 
